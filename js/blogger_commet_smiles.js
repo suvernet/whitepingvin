@@ -24,7 +24,7 @@ for (key in smiles) {
     smile.innerHTML = smile.innerHTML.replace(/:yahoo:/g, p+"yahoo_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:help:/g, p+"help_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:dash:/g, p+"dash_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/:thanks:/g, p+"0B3_dGXEjBVdPU09uUWpuTUZnSUU"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:dance:/g, p+"dance_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:mail:/g, p+"mail1_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:music:/g, p+"music_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:clapping:/g, p+"clapping_mini.gif"+u);
@@ -38,5 +38,8 @@ for (key in smiles) {
     smile.innerHTML = smile.innerHTML.replace(/:ok:/g, p+"ok_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:crazy:/g, p+"crazy_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:blush:/g, p+"blush_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:angel:/g, p+"angel_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:new_russian:/g, p+"new_russian_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:bye:/g, p+"bye_mini.gif"+u);
   }
 }
