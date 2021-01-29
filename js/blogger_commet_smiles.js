@@ -1,4 +1,4 @@
-var p = '<img src="https://drive.google.com/uc?export=download&amp;id=';
+var p = '<img src="https://git.whitepingvin.ru/img/smile/';
 var u = '" border="0" />';
 if(document.getElementsByClassName == undefined) {
   var smiles = $('#comments').find('.comment-content')
@@ -8,9 +8,9 @@ if(document.getElementsByClassName == undefined) {
 for (key in smiles) {
   var smile = smiles[key]
   if (smile.innerHTML) {
-    smile.innerHTML = smile.innerHTML.replace(/(:-?|=)\)/ig, p+"0B3_dGXEjBVdPejFuX2hHeUZTLVk"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:-?|=)\(|(:nothappy:)/ig, p+"0B3_dGXEjBVdPeExVNkJ6Ry1WQXc"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(;)\)|(:wink:)/ig, p+"0B3_dGXEjBVdPVFlCUG9DdWpZaVU"+u);
+    smile.innerHTML = smile.innerHTML.replace(/(:-?|=)\)/ig, p+"smile_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/(:-?|=)\(|(:nothappy:)/ig, p+"sad_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/(;)\)|(:wink:)/ig, p+"wink_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/(:z)|(:ne-a:)/ig, p+"0B3_dGXEjBVdPendKYVdYUGMyVUk"+u);
     smile.innerHTML = smile.innerHTML.replace(/(:D)|(:big_smile:)/g, p+"0B3_dGXEjBVdPVjZ2NklUMHVjd3c"+u);
     smile.innerHTML = smile.innerHTML.replace(/(8-0)|(:boom:)/ig, p+"0B3_dGXEjBVdPaEUtLXNkRlRZcVE"+u);
