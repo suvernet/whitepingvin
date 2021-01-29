@@ -8,25 +8,35 @@ if(document.getElementsByClassName == undefined) {
 for (key in smiles) {
   var smile = smiles[key]
   if (smile.innerHTML) {
-    smile.innerHTML = smile.innerHTML.replace(/(:-?|=)\)|(:smile:)/ig, p+"smile_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:-?|=)\(|(:sad:)/ig, p+"sad_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(;)\)|(:wink:)/ig, p+"wink_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:z)|(:ne-a:)/ig, p+"nea_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:D)|(:biggrin:)/g, p+"biggrin_mini2.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(8-0)|(:dirol:)/ig, p+"dirol_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:p)|(:blum:)/ig, p+"blum_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(%;)|(:cray:)/ig, p+"cray_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(XD)|(:lol:)/g, p+"lol_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(_@)|(:pardon:)/ig, p+"0B3_dGXEjBVdPanJLakJPdFhWTlE"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:smile:/ig, p+"smile_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:sad:/ig, p+"sad_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:wink:/ig, p+"wink_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:ne-a:/ig, p+"nea_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:biggrin:/g, p+"biggrin_mini2.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:dirol:/ig, p+"dirol_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:blum:/ig, p+"blum_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:cray:/ig, p+"cray_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:rofl:/g, p+"rofl_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:pardon:/ig, p+"pardon_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:wacko:/g, p+"wacko_mini2.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(O_o)|(:chok:)/g, p+"chok_mini.gif"+u);
-    smile.innerHTML = smile.innerHTML.replace(/:beer:/g, p+"0B3_dGXEjBVdPRDA0NmtESkcxcWs"+u);
-    smile.innerHTML = smile.innerHTML.replace(/:friends:/g, p+"0B3_dGXEjBVdPekFjWmFoVXpZWTA"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:help:)|(:sos:)/g, p+"0B3_dGXEjBVdPNE1XdzNnS1B6Rjg"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(:fool:)|(:idiot:)|(:wall:)/g, p+"0B3_dGXEjBVdPWFNoQ1FMZHhOWHM"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:chok:/g, p+"chok_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:drink:/g, p+"drink2_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:yahoo:/g, p+"yahoo_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:help:/g, p+"help_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:dash:/g, p+"dash_mini.gif"+u);
     smile.innerHTML = smile.innerHTML.replace(/:thanks:/g, p+"0B3_dGXEjBVdPU09uUWpuTUZnSUU"+u);
-    smile.innerHTML = smile.innerHTML.replace(/:rtfm:/g, p+"0B3_dGXEjBVdPTm92TEJ6TVZNeVE"+u);
-    smile.innerHTML = smile.innerHTML.replace(/(@\()|(:angry:)|(:mad:)/g, p+"0B3_dGXEjBVdPVEpGZE4tMWZRX1E"+u);
-    smile.innerHTML = smile.innerHTML.replace(/:gigi:/g, p+"0B3_dGXEjBVdPZFdoT0FaQ3Ita1E"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:mail:/g, p+"mail1_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:music:/g, p+"music_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:clapping:/g, p+"clapping_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:sorry:/g, p+"sorry_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:stop:/g, p+"stop_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:unknw:/g, p+"unknw_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:yes:/g, p+"yes_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:laugh:/g, p+"laugh_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:greeting:/g, p+"greeting_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:good:/g, p+"good_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:ok:/g, p+"ok_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:crazy:/g, p+"crazy_mini.gif"+u);
+    smile.innerHTML = smile.innerHTML.replace(/:blush:/g, p+"blush_mini.gif"+u);
   }
 }
