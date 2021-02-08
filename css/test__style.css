@@ -1,0 +1,194 @@
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:    Minimalist design
+Designer: Suver
+URL:      https://suver.ru
+----------------------------------------------- */ 
+* {
+	box-sizing: border-box;
+	overflow-wrap: break-word;
+}
+a {
+	text-decoration: none;
+	color: #17A0CD;
+}
+body {
+	font: 0.95em "Helvetica Neue", Helvetica, Arial, sans-seri;
+	background: #f2f3f4;
+	color: #494949;
+}
+
+/*----- HEADER -----*/
+header {
+	width: 100%;
+	height: 45px;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background: #262933;
+}
+header, header a {
+	color: #fff;
+}
+.header {
+    margin-left: 40px;
+}
+.header a {
+	display: flex;
+}
+h1 {
+	font-size: 1.4em;
+	color: #fff;
+	margin-left: 10px;
+}
+img.logo {
+    width: 30px;
+    height: 30px;
+}
+.menu {
+    margin-right: 40px;
+}
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 75px;
+}
+
+/*----- CONTENT -----*/
+.content {
+	width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	max-width: 100%;
+}
+
+/*----- MAIN -----*/
+main {
+    width: 65%;
+}
+#main_block {
+    width: 90%;
+}
+#Blog1 {
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+/*----- POST -----*/
+h2.date-header {
+    font-size: .75em;
+    color: #17A0CD;
+    margin-left: 21px;
+}
+.date-outer:before {
+    content: '\f073';
+    font-family: 'FontAwesome';
+    position: relative;
+    top: 17px;
+    color: #17A0CD;
+}
+h3.post-title.entry-title {
+    font-size: 1.5em;
+    color: #3d4956;
+}
+h3.post-title.entry-title a {    
+    color: #3d4956;
+}
+span.fn {
+    color: #17A0CD;
+}
+span.post-author.vcard {
+    font-size: .75em;
+}
+.post-outer {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.post-footer {
+	position: relative;
+	font-size: .75em;
+	margin-top: 15px;
+}
+.post-comment-link {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.feed-links {
+    font-size: .75em;
+}
+.jump-link a {
+    border: 1px solid;
+    padding: 5px;
+}
+
+/*----- COMMENT -----*/
+.comment-header {
+    font-size: .75em;
+}
+span.comment-actions.secondary-text, span.thread-count, .continue {
+    font-size: .9em;
+}
+a.comment-reply {
+    margin-right: 20px;
+}
+
+/*----- ASIDE -----*/
+aside {
+    width: 25%;
+    padding: 20px;
+    margin-top: 40px;
+}
+aside .widget h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+.BlogArchive li:before,.Label li:before {
+    content: '\f178';
+    font-family: 'FontAwesome';
+    position: relative;
+    top: 0;
+    padding-right: 10px;
+    color: #535859;
+    font-size: .75em
+}
+.blog-list-container .blog-title {
+    font-weight: normal !important;
+}
+.widget li {
+    padding: .10em;
+}
+.widget ul {
+    padding: 0;
+}
+
+/*----- FOOTER -----*/
+footer {
+	width: 100%;
+	height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: .75em;
+	color: #fff;
+	background-color: #262933;
+}
+footer p {
+    padding-top: 13px;
+}
+
+/*----- Картинки в комментах -----*/
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+img.image {
+    width: 100% !important;
+	
+}
