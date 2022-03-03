@@ -1,4 +1,4 @@
-var p = '<img src="https://git.whitepingvin.ru/img/smile/';
+var p = '<img src="https://suvernet.github.io/whitepingvin/img/smile/';
 var u = '" border="0" />';
 if(document.getElementsByClassName == undefined) {
   var smiles = $('#comments').find('.comment-content')
